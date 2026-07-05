@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad 2</title>
+    <script src="js/utileria.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div class="contenedor-formulario">
+        <h1>Formulario de registro</h1>
+        <label> Nombre completo</label>
+        <input type="text" id="nombre" oninput="validarsololetras()" placeholder="Ingrese su nombre en mayusculas">
+        <span id="error-nombre"></span>
+        <span id="exito-nombre"></span>
+        <br>
+        <label> Correo electronico</label>
+        <input type="text" id="correo" oninput="validarcorreo()" placeholder="Ingrese su correo">
+        <span id="error-correo"></span>
+        <span id="exito-correo"></span>
+        <br>
+        <label> Numero celular</label>
+        <input type="text" id="celular" oninput="validarlongitud()"
+            placeholder="ingrese su numero celular de 10 digitos">
+        <span id="error-celular"></span>
+        <span id="exito-celular"></span>
+        <br>
+        <label> CURP</label>
+        <input type="text" id="curp" oninput="validarcurp()" placeholder="ingrese su curp">
+        <span id="error-curp"></span>
+        <span id="exito-curp"></span>
+        <br>
+        <label> Fecha de nacimiento</label>
+        <input type="date" id="edad" placeholder="ingrese su fecha de nacimiento">
+        <span id="error-edad"></span>
+        <span id="exito-edad"></span>
+        <br>
+        <label> Contraseña</label>
+        <input type="password" id="contraseña" oninput="contraseña()" placeholder="ingrese una contraseña">
+        <span id="error-contraseña"></span>
+        <span id="exito-contraseña"></span>
+        <br>
+        <label> Confirmar contraseña</label>
+        <input type="password" id="confirmar" oninput="validarconfirmarcontraseña()"
+            placeholder="ingrese una contraseña">
+        <span id="error-confirmar"></span>
+        <span id="exito-confirmar"></span>
+        <br>
+        <button class="boton-verificar" onclick="validaredad()">Registrarse</button>
+        <div id="miModal" class="modal-fondo">
+            <div class="modal-contenido">
+                <h2>Resultado del Cálculo</h2>
+                <p id="texto-modal-edad"></p>
+                <button type="button" class="boton-cerrar" onclick="cerrarModal()">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
