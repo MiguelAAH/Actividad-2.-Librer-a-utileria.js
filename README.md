@@ -1,7 +1,5 @@
 
 
-https://github.com/user-attachments/assets/ed613523-29c8-4c33-b235-698f71a156ad
-
 # Actividad-2.-Librer-a-utileria.js
 librería JS funcional  que valida correos, solo texto, longitud, edad, contraseña y verificar misma contraseña, CURP
 
@@ -209,6 +207,10 @@ function validarconfirmarcontraseña() {
 ```
 <img width="532" height="333" alt="image" src="https://github.com/user-attachments/assets/1c38e402-de92-4153-b808-f96fa7e5ed00" />
 <img width="540" height="323" alt="image" src="https://github.com/user-attachments/assets/5c47ae58-2b34-4ec5-a8bf-f07ac2236a9c" />
+
+
+
+https://github.com/user-attachments/assets/ed613523-29c8-4c33-b235-698f71a156ad
 
 ## Video de explicación
 
