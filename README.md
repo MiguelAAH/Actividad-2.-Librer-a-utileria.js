@@ -17,7 +17,7 @@ Para utilizar esta librería en cualquier documento HTML, basta con descargar el
 <script src="js/utileria.js"></script>
 ```
 
-###1. Validación de Correo Electrónico:
+### 1. Validación de Correo Electrónico:
 ```
 function validarcorreo() {
     var correo = document.getElementById('correo').value;
