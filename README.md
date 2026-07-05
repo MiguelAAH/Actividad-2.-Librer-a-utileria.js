@@ -205,3 +205,6 @@ function validarconfirmarcontraseña() {
 ```
 <img width="532" height="333" alt="image" src="https://github.com/user-attachments/assets/1c38e402-de92-4153-b808-f96fa7e5ed00" />
 <img width="540" height="323" alt="image" src="https://github.com/user-attachments/assets/5c47ae58-2b34-4ec5-a8bf-f07ac2236a9c" />
+
+## Video de explicación
+https://youtu.be/0z0x7-HNsR0 
