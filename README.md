@@ -17,7 +17,7 @@ Para utilizar esta librería en cualquier documento HTML, basta con descargar el
 <script src="js/utileria.js"></script>
 ```
 
-### 1. Validación de Correo Electrónico:
+## 1. Validación de Correo Electrónico:
 ```
 function validarcorreo() {
     var correo = document.getElementById('correo').value;
@@ -41,7 +41,9 @@ function validarcorreo() {
 
 
 
-```2. Validación de Longitud
+
+## 2. Validación de Longitud
+```
 function validarlongitud() {
     let cadena = document.getElementById("celular").value;
     let arreglo = cadena.split('').map(Number);
@@ -60,7 +62,8 @@ function validarlongitud() {
 <img width="547" height="176" alt="image" src="https://github.com/user-attachments/assets/7806f686-dc82-425c-840f-ae305061db43" />
 
 
-```3. Validación de Solo letras mayusculas
+## 3. Validación de Solo letras mayusculas
+```
 function validarsololetras() {
     var nombre = document.getElementById('nombre').value;
     var expReg = /^[A-ZÁÉÍÓÚÑ ]+$/;
@@ -81,7 +84,8 @@ function validarsololetras() {
 <img width="547" height="148" alt="image" src="https://github.com/user-attachments/assets/02d07bda-58e3-4b1e-bbf5-b124d383730a" />
 
 
-```4. Validación de Edad y mayor de edad
+## 4. Validación de Edad y mayor de edad
+```
 function validaredad() {
     var fechaNacimientoTexto = document.getElementById('edad').value;
     if (fechaNacimientoTexto === "") {
@@ -113,7 +117,8 @@ function validaredad() {
 <img width="497" height="266" alt="image" src="https://github.com/user-attachments/assets/4a0b82ed-d686-4f1a-a656-ffb5c1ecbe25" />
 
 
-```5. Función Validación contraseña
+## 5. Función Validación contraseña
+```
 function contraseña() {
     const longitudminima = 8;
     const tienemyuscula = /[A-Z]/;
@@ -156,7 +161,8 @@ function contraseña() {
 <img width="545" height="161" alt="image" src="https://github.com/user-attachments/assets/8da2ae8c-eecc-4d51-a9d8-f1b0b515b9d7" />
 
 
-```6. Validar Curp
+## 6. Validar Curp
+```
 function validarcurp() {
     const longitudminima = 18;
     var curp = document.getElementById("curp").value;
@@ -181,7 +187,8 @@ function validarcurp() {
 <img width="527" height="158" alt="image" src="https://github.com/user-attachments/assets/4a8b3d44-c134-460c-88ea-d562170c2043" />
 
 
-```7. Valifación de Verificar Contraseña
+##7. Valifación de Verificar Contraseña
+```
 function validarconfirmarcontraseña() {
     var contraseña = document.getElementById("contraseña").value;
     var confirmar = document.getElementById("confirmar").value;
